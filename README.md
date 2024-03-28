@@ -18,11 +18,11 @@ Ensure you have Python installed on your system. This project was developed usin
 3. Activate the virtual environment:
 - On Windows:
   ```
-  .venv\Scripts\activate
+  .venvCap\Scripts\activate
   ```
 - On Unix or MacOS:
   ```
-  source .venv/bin/activate
+  source .venvCap/bin/activate
   ```
 4. Install the required packages:
 
@@ -55,9 +55,3 @@ This project consists of Python scripts that perform data processing, analysis, 
 3. **Run the Script:**
  
 
-
-## Contact
-For any queries regarding this project, please contact:
-
-- Name: [Your Name]
-- Email: [Your Email]
