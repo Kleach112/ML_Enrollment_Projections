@@ -48,10 +48,61 @@ This project consists of Python scripts that perform data processing, analysis, 
      ```
      source .venvCap/bin/activate
      ```
+2. Install the required packages using the following command:
+    pip install -r requirements.txt
 
-2. **Navigate to the Scripts Directory:**
+
+3. **Navigate to the Scripts Directory:**
    Change to the `scripts/` directory where your Python scripts are located.
+      cd scripts/
 
-3. **Run the Script:**
- 
+4. **Run the cleaning Script:**
+  python data_cleaning_script.py
+This script will process the data files located in the `data/` directory and output cleaned data ready for analysis. Check the `data/` directory for the cleaned datasets.
+
+## Running Analysis Notebooks
+
+The analysis notebooks provide a detailed exploration of the data and the modeling process. To view and run these notebooks:
+
+1. Ensure you're in the project's root directory and activate your virtual environment.
+
+2. Start Jupyter Notebook or JupyterLab:
+
+OR
+
+3. Navigate to the `notebooks/` directory in the Jupyter interface and open the analysis notebooks.
+
+4. Run the cells in the notebook to perform the analysis and view the results.
+
+## Screenshots
+
+Below are some screenshots from the analysis notebooks, highlighting key findings and visualizations:
+
+## Model Scatterplots
+
+### Decision Tree Predicted vs Actual Enrollment
+![Scatterplot showing the predicted versus actual enrollment values for the Decision Tree model](images/DT_Scatterplot.png)
+
+### Gradient Boosting Predicted vs Actual Enrollment
+![Scatterplot showing the predicted versus actual enrollment values for the Gradient Boosting model](images/GB_Scatterplot.png)
+
+### Linear Regression Predicted vs Actual Enrollment
+![Scatterplot showing the predicted versus actual enrollment values for the Linear Regression model](images/LR_Scatterplot.png)
+
+### Random Forest Predicted vs Actual Enrollment
+![Scatterplot showing the predicted versus actual enrollment values for the Random Forest model](images/RF_Scatterplot.png)
+
+## Performance Comparison
+
+### Model Performance Overview
+![Bar chart comparing the performance metrics across different models](images/Performance_Comparison.png)
+
+### Dataset Performance Summary
+![Summary of the dataset's performance in the models](images/Set_Performance.png)
+
+
+
+## Conclusion and Future Work
+
+This project provides a foundational approach to forecasting school enrollment using machine learning. While the current models offer significant improvements over traditional methods, future work will focus on incorporating more granular data and exploring additional predictive features such as local birth rates and development trends. Further refinement of the models and the integration of advanced machine learning techniques will be pursued to enhance predictive accuracy.
 
