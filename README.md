@@ -74,6 +74,19 @@ OR
 
 4. Run the cells in the notebook to perform the analysis and view the results.
 
+## Data Sources
+
+The data used in this project was sourced from the following:
+
+- **DESE Data**: Enrollment figures and related educational data were obtained from the [Missouri Department of Elementary and Secondary Education (DESE)](https://apps.dese.mo.gov/MCDS/home.aspx). The data was filtered to include relevant information for the Springfield R-XII School District.
+
+- **2020 ACS Data**: Demographic information was sourced from the [2020 American Community Survey 5-Year Estimates](https://data.census.gov/table/ACSST5Y2020.S0101), provided by the U.S. Census Bureau. Data was filtered to match the geographic scope of the school district.
+
+- **ACS Data**: Additional demographic data was sourced from the [American Community Survey 1-Year Estimates for 2022](https://data.census.gov/table/ACSDT1Y2022.B09001?q=B09001), also provided by the U.S. Census Bureau. This data was similarly filtered for the appropriate geographies.
+
+All data was utilized in compliance with their respective terms of use and was filtered to the specific geographies relevant to the Springfield R-XII School District to ensure the accuracy and relevance of the analysis.
+
+
 ## Screenshots
 
 Below are some screenshots from the analysis notebooks, highlighting key findings and visualizations:
@@ -101,6 +114,13 @@ Below are some screenshots from the analysis notebooks, highlighting key finding
 ![Summary of the dataset's performance in the models](images/Set_Performance.png)
 
 
+## Project Report
+
+For a detailed write-up of the project's methodology, findings, and analyses, please refer to the comprehensive report available on Overleaf:
+
+[School Enrollment Forecasting Project Report](https://www.overleaf.com/read/jqwfxmcgnfsg#3b86ff)
+
+This report includes an in-depth discussion of the data cleaning process, exploratory data analysis, model development, results interpretation, and future work recommendations.
 
 ## Conclusion and Future Work
 
